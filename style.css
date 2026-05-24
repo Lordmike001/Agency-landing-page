@@ -1,0 +1,237 @@
+@font-face {
+    font-family: poppins;
+    ;
+    src: url(./assets/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: avenii;
+    src: url(./assets/Avenir\ Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    padding: 1px 2px;
+    background-color: #D7F5DC;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 450px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.head1 {
+    padding: 30px 100px;
+}
+
+#agcol {
+    color: #F55F1D;
+}
+
+#DesAg {
+    font-weight: 700;
+    color: #000000;
+}
+
+.nav1 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.loginbtn,
+.regbtn {
+    width: 93px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #20B15A;
+    background: none;
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.regbtn {
+    background-color: #20B15A;
+    color: #FFFFFF;
+    width: 105px;
+}
+
+.regbtn:hover {
+    animation: btn-animation 1s forwards;
+
+}
+
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.hero-main-left {
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#increase {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#helpPara {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#get-started {
+    width: 105px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #20B15A;
+    background: #20B15A;
+    color: #fff;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+#get-started:hover {
+    animation: btn-animation 1s forwards;
+
+}
+
+@keyframes btn-animation {
+    0% {
+        background-color: #20B15A;
+        color: #FFFFFF;
+    }
+
+    100% {
+        background: none;
+        color: #20B15A;
+    }
+}
+
+#logos {
+    padding: 40px 20px;
+    background-color: #fff;
+    display: flex;
+    gap: 200px;
+    width: 200vw;
+    animation: logo-animation 5s linear infinite;
+}
+
+@keyframes logo-animation {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.threeBox {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.what-we-de {
+    padding: 100px;
+}
+
+#what-txt {
+    color: #20B15A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#we-provide-txt {
+    font-weight: 600;
+    font-size: 30px;
+    width: 495px;
+    line-height: 100%;
+    padding-top: 18px;
+}
+.box{
+width: 380px;
+height: 415px;
+}
+.head-wht-we-do{
+    width: 240px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.head-wht-we-do1{
+        width: 272px;
+    height: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.head-wht-we-do2{
+    width: 297px;
+    font-size: 24px ;
+    font-weight: 600;
+}
+.boxpara{
+    font-family: avenii;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.6;
+    width: 299px;
+    height: 50px;
+    padding-top: 20px;
+}
+.achievement-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -120px;
+}
+.head-acheive{
+    font-size: 40px;
+    font-weight: 800;
+    color: #20B15A;
+    font-family: avenii;
+}
+#portfolio{
+    padding: 100px;
+
+}
+#portfolio-box{
+    display: flex;
+    gap: 40px;
+    padding-top30px: ;
+}
