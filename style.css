@@ -233,5 +233,5 @@ height: 415px;
 #portfolio-box{
     display: flex;
     gap: 40px;
-    padding-top30px: ;
+    padding: top 30px;
 }
