@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Poppins;
+    src: url('./assets/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: Avenir;
+    src: url('./assets/Avenir\ Regular.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a, a:active, a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+header, nav ul, .hero-main, .partners, .three-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    width: 55%;
+}
+.hero{
+    padding: 30px 100px;
+    background-color: #D7F5DC;
+}
+#design-agency{
+    font-weight: 700;
+    color: #000000;
+}
+#agency{
+    color: #F55F1D;
+}
+nav button, #get-started{
+    width: 93px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #20B15A;
+    background: none;
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
+}
+#register-btn, #get-started{
+    background-color: #20B15A;
+    color: #FFFFFF;
+    width: 105px;
+}
+.hero-main{
+    padding-top: 50px;
+}
+
+#increase-text{
+    font-weight: 700;
+    font-size: 3.125rem;
+    font-family: Avenir;
+}
+#get-started{
+    width: 175px;
+    height: 70px;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+#ddb{
+    font-size: 1.5rem;
+}
+@keyframes partner-animation {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.partners{
+    padding: 40px 20px;
+    background-color: #fff;
+    width: 200vw;
+    animation: partner-animation 5s linear infinite;
+}
+.green-under{
+    width: 100vw;
+    height: 30px;
+    background-color: #D7F5DC;
+}
+
+
+.what-we-do{
+    background-color: #fff;
+    padding: 50px 100px;
+}
+.what-we-do h2{
+    color: #20B15A;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+.perfect{
+    color: #000;
+    font-size: 1.875rem;
+    font-weight: 600;
+    width: 42%;
+    padding: 5px 0;
+}
+.card{
+    width: 380px;
+    height: 415px;
+    padding: 50px 30px;
+}
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+.card p{
+    font-weight: Avenir;
+    font-size: 1.125rem;
+    padding: 20px 0;
+}
+.card button{
+    background: none;
+    border: none;
+    font-size: 1.125rem;
+    padding: 15px 20px;
+}
